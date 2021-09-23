@@ -1,0 +1,24 @@
+.estiloDiv{
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    margin:  10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor{
+    display:flex;
+    justify-content: space-around;
+}
+
+.contenido{
+    height:80px;
+    width:10%;
+    float:left;
+    margin: 10px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: white;
+}

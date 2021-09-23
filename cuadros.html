@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  
+  <script src="acciones.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Dibujar Cuadros</title>
+</head>
+<body>
+    <h1>No. de Cajas</h1>
+
+    <input type="number" id="numero"/>
+    
+    <br>
+
+    <label for="">Color de fondo</label>
+    <select name="fondo" id="fondo">
+        <option value="#e04840">Rojo</option>
+        <option value="#40e068">Verde</option>
+        <option value="#1873d5">Azul</option>
+    </select>
+    <br>
+
+    <label for="">Color del border</label>
+    <select name="borde" id="borde">
+        <option value="#e04840">Rojo</option>
+        <option value="#40e068">Verde</option>
+        <option value="#1873d5">Azul</option>
+    </select>
+    <br>
+
+    <button onclick="dibujar()">Mostrar</button>
+
+    <article class="contenedor">
+        <div class="contenido" id='div1'> &nbsp;</div>
+        <div class="contenido" id='div2'> &nbsp;</div>
+        <div class="contenido" id='div3'> &nbsp;</div>
+        <div class="contenido" id='div4'> &nbsp;</div>
+    </article>
+
+</body>
+</html>
